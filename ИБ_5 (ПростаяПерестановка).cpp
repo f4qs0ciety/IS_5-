@@ -63,7 +63,7 @@ void decrypt() {
 	cout << input[0] << endl;
 	cout << input[1] << endl;
 	cout << "Расшифрованный текст: ";
-	int blocks = input[1].length() / m;
+	int blocks = m;
 	for (int count = 0; count < blocks; count++) {
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < input[1].length(); j++) {
